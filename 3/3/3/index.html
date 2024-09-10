@@ -25,6 +25,16 @@
                 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
                 
             }
+            video{
+                float: right;
+                width: 250;
+                height: auto;
+                transition: all 0.3s ease;
+                cursor: pointer;
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                border-radius: 2px;
+
+            }
             @media (max-width: 1300px){
                 header img{
                     width: 200px;
@@ -42,12 +52,17 @@
                     width: 100px;
                     
                 }
+                video{
+                    display: none;
+                }
             }
 
             header img:hover {
                 transform: scale(1.05);
             }
-
+            video:hover{
+                transform: scale(1.05);
+            }
             .container {
                 max-width: 600px;
                 margin: 50px auto;
@@ -92,6 +107,7 @@
     <header>
         <h1>333</h1>
         <img src="https://i.scdn.co/image/ab67616d00001e02229a333e30908975e7724646" alt="333" onclick="salvetodos(0)">
+        <video src="333.mp4" width="300" autoplay muted></video>
     </header>
     <body>
         <div class="container">
