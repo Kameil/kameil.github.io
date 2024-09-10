@@ -43,3 +43,11 @@ function salvetodos(track) {
     }
     window.open("https://open.spotify.com/intl-pt/album/5CP84pfi4AFe95UTACFWrk?uid=e79434869ccfbb6b4450&uri=spotify%3Atrack%3A4ssHL7bSnOAE7HjiuLx6Co");
 }
+function unmute(){
+    const video = document.getElementById('333video')
+    if (video.muted){
+        video.muted = false;
+    }else{
+        video.muted = true;
+    }
+}
